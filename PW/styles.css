@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #92b7fd, #041533);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px; /* Limita a largura máxima */
+}
+
+.login-container {
+    padding: 20px;
+    width: 50%;
+}
+
+.login-container h1 {
+    margin-bottom: 24px;
+    font-size: 32px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+.input-group input:focus {
+    border-color: #6a11cb;
+    outline: 2px solid #6a11cb;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Mantém os botões alinhados */
+}
+
+.button-group button {
+    width: 49%; /* Ajuste para garantir que fiquem colados */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-entrar {
+    margin-top: 5px;
+    background: linear-gradient(135deg, #1a3a79, #06093b);
+    color: white;
+}
+
+.btn-entrar:hover {
+    background: linear-gradient(135deg, #06093b, #1a3a79);
+}
+
+.btn-cadastrar {
+    margin-top: 5px;
+    background: linear-gradient(135deg, #1a3a79, #06093b);
+    color: white;
+}
+
+.btn-cadastrar:hover {
+    background: linear-gradient(135deg, #06093b, #1a3a79);
+}
+.image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+   
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+   
+}
